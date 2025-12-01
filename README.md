@@ -79,12 +79,5 @@ _ _ = dunder test
  - "watch-test": "jest --watch"
  - npm run watch-test
 
----
 
-## Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm start`
-4. Run tests: `npm test` or `npm run watch-test`
 
