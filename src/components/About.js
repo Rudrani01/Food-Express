@@ -33,49 +33,48 @@ class About extends Component {
 
         console.log("Fetched user data:", json);
     }
+    render() {
+        console.log("Parent Render");
 
- render() {
-    console.log("Parent Render");
+        const { about, features, techStack } = this.state.userInfo;
 
-    const { about, features, techStack } = this.state.userInfo;
+        return (
+            <div className="px-4 py-2 sm:px-6 sm:py-4">
+                <h1 className="text-xl sm:text-2xl font-bold text-center m-2 sm:m-4 p-2 sm:p-4">About</h1>
+                <div className="p-2 m-2 font-semibold text-sm sm:text-base">
+                    logged-in-user :
+                    <UserContext.Consumer>
+                        {(data) => <h1 className="text-base sm:text-lg">{data.loggedInUser}</h1>}
+                    </UserContext.Consumer>
+                </div>
 
-    return (
-        <div>
-            <h1 className="text-2xl font-bold text-center m-4 p-4">About</h1>
-            <div className="p-2 m-2 font-semibold">
-                logged-in-user :
-                <UserContext.Consumer>
-                    {(data) => <h1>{data.loggedInUser}</h1>}
-                </UserContext.Consumer>
+                {/* <h2>This is  React Series</h2> */}
+
+                {/* Commented out to avoid duplicate data */}
+                {/* <UserClass name={"First"} location={"Dehradun class"} /> */}
+                {/* <UserClass name={"Second"} location={" US "} /> */}
+
+                {/* Display data from GitHub API - shown only once */}
+                <div className="text-center max-w-4xl mx-auto px-4">
+                    <h3 className="font-semibold text-base sm:text-lg mb-2">FOOD EXPRESS:</h3>
+                    <p className="mb-4 text-sm sm:text-base text-left sm:text-center leading-relaxed">{about}</p>
+
+                    <h3 className="font-semibold text-base sm:text-lg mb-2">Features:</h3>
+                    <ul className="mb-4 text-sm sm:text-base text-left list-disc list-inside space-y-1">
+                        {features && features.map((feature, index) => (
+                            <li key={index}>{feature}</li>
+                        ))}
+                    </ul>
+
+                    <h3 className="font-semibold text-base sm:text-lg mb-2">Tech Stack:</h3>
+                    <ul className="text-sm sm:text-base text-left list-disc list-inside space-y-1">
+                        {techStack && techStack.map((tech, index) => (
+                            <li key={index}>{tech}</li>
+                        ))}
+                    </ul>
+                </div>
             </div>
-
-            {/* <h2>This is  React Series</h2> */}
-            
-            {/* Commented out to avoid duplicate data */}
-            {/* <UserClass name={"First"} location={"Dehradun class"} /> */}
-            {/* <UserClass name={"Second"} location={" US "} /> */}
-
-            {/* Display data from GitHub API - shown only once */}
-            <div className="text-center">
-                <h3 className="font-semibold text-lg mb-2">FOOD EXPRESS:</h3>
-                <p className="mb-4">{about}</p>
-                
-                <h3 className="font-semibold text-lg mb-2">Features:</h3>
-                <ul className="mb-4">
-                    {features && features.map((feature, index) => (
-                        <li key={index}>{feature}</li>
-                    ))}
-                </ul>
-                
-                <h3 className="font-semibold text-lg mb-2">Tech Stack:</h3>
-                <ul>
-                    {techStack && techStack.map((tech, index) => (
-                        <li key={index}>{tech}</li>
-                    ))}
-                </ul>
-            </div>
-        </div>
-    );
+        );
     }
 }
 

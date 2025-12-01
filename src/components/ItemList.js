@@ -51,16 +51,16 @@ const ItemList = ({ items, dummy, showQuantity = false }) => {
             {/* Updated: display quantity */}
             {showQuantity && <p className="text-sm font-bold">Quantity: {item.quantity}</p>}
           </div>
-          {/* Right side: Image on top, Add/Remove buttons below */}
+    {/* Right side: Image on top, Add/Remove buttons below */}
           <div className="w-full sm:w-3/12 flex flex-row sm:flex-col items-center gap-2">
             <img
               src={CDN_URL + item.card.info.imageId}
               className="w-20 h-20 sm:w-full sm:h-auto rounded-lg object-cover aspect-square sm:aspect-[4/3] flex-shrink-0"
             />
-            <div className="flex flex-col gap-1.5 w-16 sm:w-full flex-shrink-0">
+            <div className="flex flex-col gap-1.5 w-full max-w-[70px] sm:max-w-none sm:w-full flex-shrink-0">
               <button
                 className="p-1.5 text-[10px] sm:text-xs rounded-lg bg-white text-black border-2 border-green-600 shadow-md transition-all duration-200 
-                  hover:scale-105 hover:bg-green-600 hover:text-white active:scale-95 active:bg-green-700 h-8 sm:h-auto"
+                  hover:scale-105 hover:bg-green-600 hover:text-white active:scale-95 active:bg-green-700 h-8 sm:h-auto whitespace-nowrap"
                 onClick={() => handleAddItem(item)}
               >
                 Add +
@@ -68,7 +68,7 @@ const ItemList = ({ items, dummy, showQuantity = false }) => {
               {/* Remove one item button */}
               <button
                 className="p-1.5 text-[10px] sm:text-xs rounded-lg bg-white text-black border-2 border-red-500 shadow-md transition-all duration-200 
-                  hover:scale-105 hover:bg-red-600 hover:text-white active:scale-95 active:bg-red-600 h-8 sm:h-auto"
+                  hover:scale-105 hover:bg-red-600 hover:text-white active:scale-95 active:bg-red-600 h-8 sm:h-auto whitespace-nowrap"
                 onClick={() => handleRemoveItem(item)}
               >
                 Remove -
