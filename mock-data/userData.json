@@ -1,0 +1,16 @@
+{
+  "about": "FoodExpress is a React-based food ordering platform. Users can browse restaurants, filter by ratings, view menus by category, and manage their cart.",
+  "features": [
+    "Browse and filter restaurants",
+    "Category-wise menus",
+    "Cart management",
+    "Responsive interface"
+  ],
+  "techStack": [
+    "React.js",
+    "Redux Toolkit",
+    "Tailwind CSS",
+    "Custom Hooks",
+    "Lazy Loading"
+  ]
+}

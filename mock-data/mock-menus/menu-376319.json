@@ -1,0 +1,3368 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "The Brooklyn Creamery - Healthy Ice Cream",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "376319",
+              "name": "The Brooklyn Creamery - Healthy Ice Cream",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "the-brooklyn-creamery-low-cal-ice-cream-bg-arkere-road-fc-arekere",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "b1b35780a9b1dfeb26d680506d494eaa",
+              "locality": "4TH SECTOR",
+              "areaName": "HSR LAYOUT",
+              "costForTwo": "20000",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": [
+                "Ice Cream",
+                "Desserts"
+              ],
+              "avgRating": 4.3,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "376319",
+                "fees": [
+                  {
+
+                  }
+                ]
+              },
+              "parentId": "236673",
+              "avgRatingString": "4.3",
+              "totalRatingsString": "403 ratings",
+              "sla": {
+                "restaurantId": "376319",
+                "deliveryTime": 36,
+                "minDeliveryTime": 35,
+                "maxDeliveryTime": 40,
+                "lastMileTravel": 4.4,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_IT_IS_LONG_DISTANCE",
+                "zoneId": 3,
+                "slaString": "35-40 MINS",
+                "lastMileTravelString": "4.4 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-12-02 04:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get items under 49",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get items under 49",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off on orders above ₹499",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get items under 49",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off on orders above ₹499 | Use code FLAT100",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+
+              },
+              "slugString": "the-brooklyn-creamery-low-cal-ice-cream-bg-arkere-road-fc-arekere",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "AL BAWARCHI BIRYANI,  NO.226, ANUGRAHA, GROUND FLOOR, 17TH B MAIN ROAD, 4TH SECTOR, HSR LAYOUT-BENGALURU, INDIA , BTM Layout , B.B.M.P South, Karnataka-560102"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 403,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get items under 49",
+                "shortDescriptionList": [
+                  {
+                    "meta": "Get items under 49",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off on orders above ₹499",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "Get items under 49",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹100 off on orders above ₹499 | Use code FLAT100",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 1,
+                  "discountInfo": {
+                    "discountType": "FinalPrice",
+                    "value": 49
+                  },
+                  "unlockedMessage": "Deal of the Day unlocked!",
+                  "minItemCount": 1,
+                  "maxItemCount": 1,
+                  "type": "SILD",
+                  "nudgeTagInfo": {
+                    "title": "Deal of the Day",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "logoCtx": {
+
+                  },
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/376319"
+              },
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {
+
+                      }
+                    },
+                    "linkCta": {
+
+                    }
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {
+
+                },
+                "subTitle": {
+
+                },
+                "message": {
+
+                },
+                "customIcon": {
+
+                },
+                "commsStyling": {
+
+                }
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+
+                },
+                "presentation": {
+
+                }
+              },
+              "latLong": "12.9160534,77.6434285",
+              "backgroundImageOverlayInfo": {
+
+              },
+              "featuredSectionInfo": {
+
+              },
+              "dishStyle": {
+                "socialMarkerStyle": [
+                  {
+                    "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                    "title": "Protein Rich",
+                    "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                    "textColor": "highlight"
+                  },
+                  {
+                    "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                    "title": "Bestseller",
+                    "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                    "textColor": "color_swiggy_one"
+                  }
+                ]
+              }
+            },
+            "analytics": {
+
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹49",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "26af314e-9914-4caa-965b-a64bd9861daf"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "376319",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹100 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "064422d1-43a4-41d8-8b5f-79bdc70dd7e2"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT100",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "376319",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT100"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 20% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "2d8631ae-7674-4740-8530-3f3ad292d11a"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE XTRAPARTY",
+                      "description": "ABOVE ₹1500",
+                      "offerType": "offers",
+                      "restId": "376319",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE XTRAPARTY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹50 OFF",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/11/30/bfff830b-9d20-40d0-a866-0c00154c86d0_ICICIMenuLogo.png",
+                      "offerIds": [
+                        "1707fd09-4c1c-464c-ac96-5ee493605bb8"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹599",
+                      "offerType": "offers",
+                      "restId": "376319",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/11/30/bfff830b-9d20-40d0-a866-0c00154c86d0_ICICIMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 50% OFF",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ON SELECT ITEMS",
+                      "offerType": "offers",
+                      "restId": "376319",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "offersFilter": {
+                        "attributes": {
+                          "displayText": "50% OFF"
+                        }
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "New Releases",
+                      "categories": [
+                        {
+                          "title": "Fruit Juice Pops",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "171544929",
+                                  "name": "Strawberry Split FJP 55 ml",
+                                  "category": "New Releases",
+                                  "description": "A refreshing ice cream popsicle made with real strawberries for that fresh, juicy burst of natural sweetness in every bite. Only 66 calories per popsicle and made with just four simple ingredients. Zero added sugar, sweetened with agave, 100% natural, completely dairy-free and guilt-free, with no added colours, flavours, or preservatives.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/9/4a706fee-990b-43f3-9699-6aa1d050d8c2_2704ff5c-357c-4e53-90cc-62b2fd42871b.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10571,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "103392566"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "171544930",
+                                  "name": "Mango Mania FJP 55 ml",
+                                  "category": "New Releases",
+                                  "description": "A refreshing ice cream popsicle made with the goodness of real, juicy mangoes for that burst of tropical sweetness in every lick. Only 45 calories per popsicle and made with just four simple ingredients.  Zero added sugar, sweetened with agave, 100% natural, completely dairy-free and guilt-free, with no added colours, flavours, or preservatives.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/9/581686dd-b38a-4d4a-b96a-a70a5b8e3d90_27f2ba1c-74a0-42bb-8b4b-9ac661ef12b6.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10571,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "103392562"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "62126673"
+                        },
+                        {
+                          "title": "MiniCones",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "171544933",
+                                  "name": "Chocolate Hazelnut Mini Cone Pack of 4",
+                                  "category": "New Releases",
+                                  "description": "A crispy waffle cone packed with creamy chocolate hazelnut ice cream. Each mini cone has only 99 calories, zero added sugar, and no preservatives. Blending the rich taste of roasted hazelnuts with smooth chocolate, it's perfect for guilt-free indulgence, mindful snacking, or sharing a moment of joy in every bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/9/23392b3e-3d2e-42b1-9cba-dd6cccf3bcb2_411dabda-cb41-4e1c-8853-ba18659243b0.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33810,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "103764445"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "171544935",
+                                  "name": "Caramel Brownie Mini Cone Pack of 4",
+                                  "category": "New Releases",
+                                  "description": "A crispy waffle cone packed with smooth caramel ice cream, swirled with gooey caramel ribbons and chunks of rich, fudgy brownie for the ultimate texture hit. Each mini cone has only 99 calories, zero added sugar, and no preservatives. Perfect for guilt-free indulgence, mindful snacking, or sharing a bite of caramel-chocolate bliss.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/5/9/d29c4d0b-2718-4b9b-b09c-ff48a9f341ef_906c93df-9c38-4d75-9171-086aa3a1c2b4.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33810,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "103764443"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "69283279"
+                        },
+                        {
+                          "title": "Chocolate Coated Bars",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "170711037",
+                                  "name": "Caramel Crackle Chocobar - Pack of 4",
+                                  "category": "New Releases",
+                                  "description": "Delight in the golden richness of caramel ice cream, wrapped in a crisp chocolate shell with a satisfying crackle in every bite. With only 109 calories per serving, zero added sugar, no preservatives, and guilt-free, this caramel chocobar is a perfect treat for moments of indulgence without the guilt.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/ebfab967-c4a1-4fa8-8147-4f48057fcad5_e05e72d1-70bd-475f-badd-c72c48e21b79.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 38000,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "103011230"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "154161637",
+                                  "name": "Fabulous Hazelnut Chocobar x Seema Sajdeh - Single Pack",
+                                  "category": "New Releases",
+                                  "description": "A rich, nutty chocolate chocobar that's pure indulgence in every bite. Only 125 calories per serve, zero added sugar, and no preservatives. It's as glamorous as it is guilt-free! Luscious chocolate ice cream bar wrapped in rich Belgian chocolate, studded with roasted hazelnuts",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/070acae2-75ca-4ebf-be3f-f63e96124b8a_66692d57-dd2a-4c95-9afa-577cae8cc5ac.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8980,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "99265929"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "174130393",
+                                  "name": "Almond Chocobar Single Pack",
+                                  "category": "New Releases",
+                                  "description": "Treat your taste buds to a crunchy, decadent delight with our Almond Chocobar. With just 165 calories per serve, this bar is completely dairy-free to fit your vegan lifestyle, gluten-free, guilt-free with zero added sugar and no preservatives. This plant-based ice cream bar combines a rich chocolate coating and almond crunch for an exotic experience.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/19/5b0f39e6-8c80-4a79-bd5a-ab9dbb6850ea_3ef8a27f-ea3f-4509-a4b5-7197cdc28616.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11905,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "105084819"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "55932896"
+                        },
+                        {
+                          "title": "Duets",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "154378903",
+                                  "name": "Mango Creamsicle - Single Pack",
+                                  "category": "New Releases",
+                                  "description": "Bright, tropical, and refreshingly creamy. Our Mango Duet pairs vibrant mango with a velvety vanilla centre for the perfect balance of flavour. Just 55 calories per serve! Zero added sugar, low calorie and no preservatives, this mango bar ice cream is a guilt-free symphony of delight.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/85cac50f-3c59-4acd-a541-054b9257cb04_b679e58d-8f6b-4cc9-b382-2f623448d598.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8072,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "100957541"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "154378904",
+                                  "name": "Raspberry Creamsicle - Single Pack",
+                                  "category": "New Releases",
+                                  "description": "Sweet, tangy, and irresistibly refreshing. Our Raspberry Duet blends vibrant raspberry with creamy vanilla for the perfect balance of fruity freshness and smooth indulgence. Just 55 calories per serve! Zero added sugar, low calorie and no preservatives. This raspberry bar ice cream is a guilt-free symphony of delight.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/b7b64729-3895-40e3-9d5e-a6cbabc2f9a4_f4b39621-6c0b-4094-b2a5-036a077c73a9.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8072,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "100957542"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "55981219"
+                        },
+                        {
+                          "title": "Cups",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "177452288",
+                                  "name": "Sweet Cream Vanilla Cup - 100 ml",
+                                  "category": "New Releases",
+                                  "description": "Relish the classic elegance of sweet cream and velvety vanilla in every smooth and satisfying bite of this ice cream. Only 70 calories per serving! Zero added sugar, guilt-free and no preservatives.",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10571,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "107336277"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "63263695"
+                        },
+                        {
+                          "title": "Tubs",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "174130397",
+                                  "name": "French Vanilla Tub 450ml",
+                                  "category": "New Releases",
+                                  "description": "Smooth, elegant, and timeless. Made with real vanilla beans and a luxuriously creamy base. Only 177 calories per serve, guilt-free with zero added sugar, no preservatives, plant-based, gluten-free, dairy-free, and suitable for the vegan lifestyle. It delivers the same rich, velvety texture of an ice cream and a delicate sweetness that lingers with every spoonful.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/19/6a8fd11d-5058-4cd3-a833-e706bbdc12bf_d1ea20b5-a998-4244-bc60-5ac61d70e7c9.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 41810,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "105084821"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "69283280"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/5/9/4a706fee-990b-43f3-9699-6aa1d050d8c2_2704ff5c-357c-4e53-90cc-62b2fd42871b.jpg",
+                      "categoryId": "43694372"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "The 99 Calorie Sundaes",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "129675913",
+                              "name": "ChocoFudge Sundae - 125 ml",
+                              "category": "The 99 Calorie Sundaes",
+                              "description": "A divine combination of rich, velvety chocolate ice cream and swirls of gooey fudge for the ultimate sundae experience. Only 99 calories per serve!  Zero added sugar and no preservatives sundae sensation you can enjoy guilt-free. Every spoonful is a mix of creamy, chewy, and deeply satisfying textures.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/9b056b8b-fdd9-435d-9523-b9dff38c0ae3_c1e2b7ca-9d23-490c-9da6-666de7c88c95.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 11905,
+                              "finalPrice": 6000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "50% OFF",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "CouponlessSild",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "offerIds": [
+                                "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                              ],
+                              "parentId": "100957538"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/9b056b8b-fdd9-435d-9523-b9dff38c0ae3_c1e2b7ca-9d23-490c-9da6-666de7c88c95.jpg",
+                      "categoryId": "69283282"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "MiniCones",
+                      "categories": [
+                        {
+                          "title": "Low Calorie, No Sugar",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "168030586",
+                                  "name": "Butterscotch Cones - Pack of 4",
+                                  "category": "MiniCones",
+                                  "description": "A crispy waffle cone packed with smooth, golden butterscotch ice cream, topped with crunchy cashew nuts for the perfect bite. Each mini cone has only 99 calories, zero added sugar, and no preservatives. This cone brings creamy, buttery sweetness in a perfectly portioned treat. Perfect for guilt-free indulgence, mindful snacking, or sharing the joy of buttery delight.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/25/5d1ffed5-b330-4df1-9734-3339256ba979_4b422c64-ee90-4f76-81d9-fa9bf7cd5a2d.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33810,
+                                  "finalPrice": 16900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "50% OFF",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "itemNudgeType": "CouponlessSild",
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "offerIds": [
+                                    "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                                  ],
+                                  "parentId": "101386656"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "168030588",
+                                  "name": "Caramello Nut Crunch Cone - Single Pack",
+                                  "category": "MiniCones",
+                                  "description": "A crispy waffle cone packed with creamy caramel ice cream, swirled with ribbons of golden caramel and topped with roasted nuts for that perfect crunch. Each mini cone has only 99 calories, zero added sugar, and no preservatives. This cone delivers a rich, nutty sweetness in a perfectly portioned treat. Ideal for guilt-free indulgence, mindful snacking, or sharing a little caramel joy.",
+                                  "imageId": "dcc43eafe786c1bd225dba8d14cea52d",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8381,
+                                  "finalPrice": 4200,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "50% OFF",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "itemNudgeType": "CouponlessSild",
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "offerIds": [
+                                    "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                                  ],
+                                  "parentId": "72101217"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "69283283"
+                        },
+                        {
+                          "title": "Others",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "177452289",
+                                  "name": "Belgian Chocolate Mini Cone Pack of 4",
+                                  "category": "MiniCones",
+                                  "description": "A crispy waffle cone packed with rich Belgian chocolate ice cream. Topped with chocolate-coated crispies for an irresistibly rich taste. Each mini cone has only 99 calories delivering indulgent flavor in a perfectly portioned treat. Zero added sugar, and no preservatives. Enjoy guilt-free indulgence, mindful snacking, or sharing a moment of joy in every bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/22/e4f69d8e-98f0-47c5-9dcb-fd3291363c82_2f565e51-f7db-4036-8360-42655fe47dc6.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33810,
+                                  "finalPrice": 16900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "50% OFF",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "itemNudgeType": "CouponlessSild",
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "offerIds": [
+                                    "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                                  ],
+                                  "parentId": "107336273"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "69283285"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/7/25/5d1ffed5-b330-4df1-9734-3339256ba979_4b422c64-ee90-4f76-81d9-fa9bf7cd5a2d.jpg",
+                      "categoryId": "60896138"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Bonbons",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167371324",
+                              "name": "Vanilla Bonbons (Pack of 10)",
+                              "category": "Bonbons",
+                              "description": "Indulge in bite-sized delight with our Vanilla Bonbons. Featuring a creamy vanilla ice cream at the center and dipped in smooth, rich chocolate. Each bonbon has only 29 calories, zero added sugar, and no preservatives, making it a guilt-free indulgence you can enjoy anytime. Each ice cream bite delivers the perfect harmony of velvety vanilla and decadent chocolate, melting effortlessly in your mouth.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/19/094db943-3619-4807-96ef-aabe259ac4ff_a3149120-ff59-4ce9-926f-320c0c56f188.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 25238,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "parentId": "101853445"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167371323",
+                              "name": "Chocoholic Bonbons (Pack of 10)",
+                              "category": "Bonbons",
+                              "description": "Indulge in bite-sized delight with our Chocolate Bonbons. A rich chocolate ice cream center wrapped in a smooth, dark chocolate shell.  Only 29 calories per bonbon, zero added sugar, and no preservatives, they're the perfect guilt-free treat. Every bite delivers an intense chocolate experience, melting effortlessly in your mouth. Thoughtfully made for snacking or sharing.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/19/6ad74fb8-5b8a-44a8-a34e-b7522ff0088d_bda23bd7-e418-411d-8c83-486a8270a291.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 25238,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "parentId": "101853443"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167371325",
+                              "name": "Vanilla Bonbons (Pack of 3)",
+                              "category": "Bonbons",
+                              "description": "Indulge in bite-sized delight with our Vanilla Bonbons. Featuring a creamy vanilla ice cream at the center and dipped in smooth, rich chocolate. Each bonbon has only 29 calories, zero added sugar, and no preservatives, making it a guilt-free indulgence you can enjoy anytime. Each ice cream bite delivers the perfect harmony of velvety vanilla and decadent chocolate, melting effortlessly in your mouth.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/19/c2558930-0bdb-459e-bfda-b9fc919d9bde_54395b11-ebcd-4f2e-acef-4b0e342705a9.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8095,
+                              "finalPrice": 4900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "offerIds": [
+                                "26af314e-9914-4caa-965b-a64bd9861daf"
+                              ],
+                              "parentId": "101853446"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "167371322",
+                              "name": "Chocoholic Bonbons (Pack of 3)",
+                              "category": "Bonbons",
+                              "description": "Indulge in bite-sized delight with our Chocolate Bonbons. A rich chocolate ice cream center wrapped in a smooth, dark chocolate shell.  Only 29 calories per bonbon, zero added sugar, and no preservatives, they're the perfect guilt-free treat. Every bite delivers an intense chocolate experience, melting effortlessly in your mouth. Thoughtfully made for snacking or sharing.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/19/d6f5abbf-95ca-4630-96db-b41c23992594_a87e2072-64fd-4169-ae7d-f6a395926ab7.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8095,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "101853444"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/19/094db943-3619-4807-96ef-aabe259ac4ff_a3149120-ff59-4ce9-926f-320c0c56f188.jpg",
+                      "categoryId": "43694375"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Cups and Tubs",
+                      "categories": [
+                        {
+                          "title": "Cups (100 ml)",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675936",
+                                  "name": "Chocoholic Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Dive into a velvety explosion of chocolate ice cream that envelops your taste buds with deep, luxurious cocoa notes. With just 80 calories per serve and zero added sugar, every spoonful is a guilt-free treat packed with rich, creamy satisfaction.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/10/5d736ea6-5630-4602-b0c6-8b1562f99783_752e8476-68a8-42d8-86a5-ed9225f9cbce.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9429,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "99265923"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675937",
+                                  "name": "Chocolate Fudge Brownie Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Indulge in the decadent delight of creamy chocolate ice cream swirled with fudgy brownie chunks. With just 85 calories per serve, zero added sugar, no preservatives, and pure guilt-free indulgence, it's every chocoholics ultimate dream come true.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/8ea1cde2-f7af-447e-9082-0ad06402710f_0dc4661c-78b6-4086-9712-00d8866ab18f.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9429,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "99265925"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675945",
+                                  "name": "Holy Moly Mango Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Savor the juicy sweetness of pulpy mangoes captured in every creamy bite of our mango ice cream. With only 70 calories per serve, zero added sugar and no preservatives - it's guilt free too! Bursting with flavor, this delivers the rich, indulgent taste of real mangoes,",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/693b53f8-af24-45c1-b111-07814b070373_1e89dfc6-ab80-4eaf-a6da-7669184746d5.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8476,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "96402554"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675943",
+                                  "name": "Kulfi Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Experience the rich, traditional charm of our Kulfi ice cream. A blend of aromatic cardamom and nutty pistachio. With just 80 calories per serve, zero added sugar, and no preservatives. It delivers a taste that's both nostalgic and indulgent and perfect guilt-free indulgence made for pure delight.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/b2671cde-f31b-47cb-822a-5b161040316d_87157999-408d-473f-b02b-09f15ab46472.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9429,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "96402556"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675938",
+                                  "name": "Sea Salt Caramel Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "A smooth swirl of sweet caramel with a hint of sea salt. With just 75 calories per serve, zero added sugar and no preservatives, this perfectly balanced ice cream combines sweet and salty in every spoonful. It's pure guilt-free indulgence!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/4/10/17205dca-3b6e-4d5d-8781-8e243d3db556_1b67067f-f70e-4fbc-8efc-e1b33bd2e86f.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 8476,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.7",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "99265937"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "161584721",
+                                  "name": "Strawberry Cup - 100 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Creamy strawberry ice cream made with real strawberries for that fresh, juicy flavour in every spoonful.With just 75 calories per serving, delight in this zero added sugar, no preservatives guilt-free indulgence. Every bite is as wholesome as it is delicious.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/fb42061c-66a8-46bf-b80a-7a252b15b91a_3ed76ed5-68f2-49df-afba-88ae2147f71f.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 10571,
+                                  "finalPrice": 4900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "itemNudgeType": "FinalPrice",
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.6",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#D9EFEC",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_medium",
+                                      "ratingTextColor": "rating_medium",
+                                      "ratingCountTextColor": "rating_medium",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "offerIds": [
+                                    "26af314e-9914-4caa-965b-a64bd9861daf"
+                                  ],
+                                  "parentId": "96918780"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "57035624"
+                        },
+                        {
+                          "title": "Tubs (450 ml)",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880502",
+                                  "name": "Butterscotch Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Creamy butterscotch with buttery richness and topped with roasted cashew bits. Only 80 calories per serve, guilt-free with zero added sugar, and no preservatives, this ice cream delivers the perfect balance of creamy, crunchy, and indulgent. It's comfort reimagined. Classic butterscotch made lighter.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/25/0a9ed91a-b561-4756-82be-07c772cde1d6_ee8bb6ff-a99d-490b-a33e-ff9fe5490019.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "99327084"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880503",
+                                  "name": "Chocoholic Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Dive into a velvety explosion of chocolate ice cream that envelops your taste buds with deep, luxurious cocoa notes. With just 80 calories per serve and zero added sugar, every spoonful is a guilt-free treat packed with rich, creamy satisfaction.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/b19cbb25-f04c-4cfb-b2f0-5d59c39de4d5_d35a4005-e7bb-4dac-9bd0-e1180d20b0d3.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 36095,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "99265924"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880504",
+                                  "name": "Chocolate Fudge Brownie Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Indulge in the decadent delight of creamy chocolate ice cream swirled with fudgy brownie chunks. With just 85 calories per serve, zero added sugar, no preservatives, and pure guilt-free indulgence, it's every chocoholics ultimate dream come true.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/7f81e31e-6c1a-49f0-b6bc-a986ad3b8939_5fb991ff-5754-4498-8919-3fadd5b648ac.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 36095,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "6 ratings",
+                                      "ratingCountV2": "6"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "99327086"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880506",
+                                  "name": "Holy Moly Mango Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Savor the juicy sweetness of pulpy mangoes captured in every creamy bite of our mango ice cream. With only 70 calories per serve, zero added sugar and no preservatives - it's guilt free too! Bursting with flavor, this delivers the rich, indulgent taste of real mangoes,",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/fa80325d-787d-4f7c-9fc1-def684e4dc8a_86a2889d-08f3-4989-825b-b59e9552cbe6.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "96402555"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880507",
+                                  "name": "Kulfi Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Experience the rich, traditional charm of our Kulfi ice cream. A blend of aromatic cardamom and nutty pistachio. With just 80 calories per serve, zero added sugar, and no preservatives. It delivers a taste that's both nostalgic and indulgent and perfect guilt-free indulgence made for pure delight.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/f0d007bd-029d-462b-b8dd-65ffb8a35ced_a769b5d2-601c-4029-a32e-3c6b5f3d1aa0.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 36095,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "96402557"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880517",
+                                  "name": "Sea Salt Caramel Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "A smooth swirl of sweet caramel with a hint of sea salt. With just 75 calories per serve, zero added sugar and no preservatives, this perfectly balanced ice cream combines sweet and salty in every spoonful. It's pure guilt-free indulgence!",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/13/9b485fc4-fb3b-4952-be1b-90a229c285ad_b66fb5b0-78c5-4737-8fa8-7d86222f75b1.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "99327091"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "139880523",
+                                  "name": "Sweet Cream Vanilla Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Relish the classic elegance of sweet cream and velvety vanilla in every smooth and satisfying bite of this ice cream. Only 70 calories per serve! Zero added sugar, guilt-free and no preservatives.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/5e38bf7d-9314-4ff2-8ed1-cfe5fb3b2e47_7d3ff899-567c-4863-a88b-7801b2545ce2.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "99265940"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675947",
+                                  "name": "Espresso Cookie Crumble Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Creamy, aromatic coffee ice cream blended with chunks of cinnamon cookies for that perfect hit of bold and sweet.Only 85 calories per serving, Zero Added Sugar, no preservatives. This is a perfect guilt-free treat for coffee and dessert lovers alike.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/4f647fd5-f213-4c06-ac7c-59915eab0e9a_8bb67600-dd3b-4a44-a1d8-95948c926fd6.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 38000,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#D9EFEC",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_medium",
+                                      "ratingTextColor": "rating_medium",
+                                      "ratingCountTextColor": "rating_medium",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "72101219"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "161584722",
+                                  "name": "Strawberry Tub - 450 ml",
+                                  "category": "Cups and Tubs",
+                                  "description": "Creamy strawberry ice cream made with real strawberries for that fresh, juicy flavour in every spoonful.With just 75 calories per serving, delight in this zero added sugar, no preservatives guilt-free indulgence. Every bite is as wholesome as it is delicious.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/e0d67a2a-9590-4515-8179-6bcd3588fafb_2fc633c3-f50c-4db5-9632-2f1e69765928.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 38000,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "96918782"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "57035625"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/4/10/5d736ea6-5630-4602-b0c6-8b1562f99783_752e8476-68a8-42d8-86a5-ed9225f9cbce.jpg",
+                      "categoryId": "57035614"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Chocolate Coated Bars",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "129675922",
+                              "name": "Death By Chocolate Chocobar - Single Pack",
+                              "category": "Chocolate Coated Bars",
+                              "description": "Succumb to the ultimate chocolate temptation with Death by Chocolate! Only 109 calories per serve and zero added sugar, Plus, it's preservative-free, guilt-free, and keto-friendly. This rich, dark chocolate-dipped chocobar ice cream transports you straight to chocolate heaven.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/f7cb4ece-a4fe-4cc1-9a94-370fb5875e03_557aff3f-d1fa-4301-9b8d-fc0c89ea605c.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9429,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "isGuiltfree": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "imageBadges": [
+                                {
+                                  "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                }
+                              ],
+                              "parentId": "99265928"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "124927914",
+                              "name": "OG Vanilla Chocobar - Single Pack",
+                              "category": "Chocolate Coated Bars",
+                              "description": "Delight in the smooth, velvety richness of classic vanilla ice cream, perfectly enveloped in a crisp chocolate shell. With only 99 calories per serve, zero added sugar, and no preservatives, this vanilla chocobar is a treat crafted for moments of pure, guilt-free pleasure.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/92b714ce-4180-4d7d-bb02-e2f936e20db7_6d9bc3e6-3c45-49c5-8213-0ba380641531.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 8571,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "99265934"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "177452292",
+                              "name": "OG Vanilla Chocobar Pack of 4",
+                              "category": "Chocolate Coated Bars",
+                              "description": "Delight in the smooth, velvety richness of classic vanilla ice cream, perfectly enveloped in a crisp chocolate shell. With only 99 calories per serving, zero added sugar, and no preservatives, this vanilla chocobar is a treat crafted for moments of pure, guilt-free pleasure.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/22/7a2b7ef8-15c1-49d0-9843-102acb14db7d_2b3fcf16-999b-4e19-a630-f7f056a9aa91.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 38000,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+
+                                }
+                              },
+                              "parentId": "107336276"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/f7cb4ece-a4fe-4cc1-9a94-370fb5875e03_557aff3f-d1fa-4301-9b8d-fc0c89ea605c.jpg",
+                      "categoryId": "57035615"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Dairy Free",
+                      "categories": [
+                        {
+                          "title": "Ice Cream Sandwiches",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "156482162",
+                                  "name": "Vanilla Cookie Sandwich - Single Pack",
+                                  "category": "Dairy Free",
+                                  "description": "Creamy dairy-free vanilla nestled between two delightful Italian chocolate cookies. Only 149 calories per serve with zero added sugar, fits your vegan lifestyle, and no preservatives make this a joyfully guilt-free treat. Made to give you the same creamy goodness of ice cream. Without a drop of dairy.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/f1ba9463-e1a2-4687-b173-afecc0e5e347_d69e25be-d0a0-4883-8c04-c0fca66452b5.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 15714,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "96462147"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "55932923"
+                        },
+                        {
+                          "title": "Tubs (450 ml)",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133867927",
+                                  "name": "Raspberry Sorbet Tub - 450 ml",
+                                  "category": "Dairy Free",
+                                  "description": "Vibrant and sweet, this sorbet ice cream bursts with the fresh, real ripe raspberries, delivering a refreshing experience. Only 49 calories per serve, Dairy-Free, guilt-free with Zero added Sugar, No preservative. Perfect for vegan lifestyle.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/ecb5d1aa-f3a9-42cc-9ee5-e04caec52bee_536460fa-b316-4139-a478-8d3b3a4a3231.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 41810,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "96402558"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675957",
+                                  "name": "Cookie Brownie Tub - 450 ml",
+                                  "category": "Dairy Free",
+                                  "description": "A dairy free chocolate ice cream swirled with chunks of fudgy brownie and chewy cookie dough. Only 149 calories per serving, zero added sugar, no preservatives, and guilt-free. It's a plant-based indulgence that fits your vegan lifestyle and feels as good as it tastes.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/8b5a610d-08d2-40e2-8679-cc8a03df864b_7b6cf7bc-2a43-4bbe-8128-570522968f57.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 41810,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "96402553"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "55932924"
+                        },
+                        {
+                          "title": "Chocolate Coated Bars",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "124927917",
+                                  "name": "Triple Chocolate Stick - Single Pack",
+                                  "category": "Dairy Free",
+                                  "description": "Dairy-free chocobar ice cream dipped in premium dark chocolate and topped with cacao nibs. 125 calories per serving! Naturally sweetened, zero added sugar, and no preservatives .Guilt-free and perfect for vegan lifestyle. This bar is a chocolate lovers dream.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/5/4c0d6031-9d8c-46ae-a685-8fa161422eaf_ea691b3b-b885-4459-b6c7-64e28c073fc9.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 12571,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "parentId": "95499907"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "177452293",
+                                  "name": "Triple Chocolate Chocobar Pack of 4",
+                                  "category": "Dairy Free",
+                                  "description": "Dairy-free chocobar ice cream dipped in premium dark chocolate and topped with cacao nibs. 125 calories per serving! Naturally sweetened, zero added sugar, and no preservatives .Guilt-free and perfect for vegan lifestyle. This bar is a chocolate lovers dream.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/22/100af8b9-7fac-4e90-9932-7361f8d780fc_13ab2ae4-5bf3-4683-a5f7-e2a697984939.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 42286,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "107336278"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "57035618"
+                        },
+                        {
+                          "title": "Bonbons",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "177452290",
+                                  "name": "Chocolate Truffle Bonbons (Pack of 10)",
+                                  "category": "Dairy Free",
+                                  "description": "Indulge in bite-sized delight with our dairy-free Truffle Bonbons. A creamy ice cream truffle center wrapped in smooth dark chocolate that melts effortlessly in your mouth. Each bonbon has just 35 calories, perfect for snacking or sharing,  zero added sugar, no preservatives and is completely plant-based to fit your vegan lifestyle, making it a guilt-free indulgence.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/7/22/ad77e684-b480-4dc2-b85e-64b14a1ea67b_fcb5a59d-52fd-4a1a-bdb6-825efd981da4.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33238,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "parentId": "107336274"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "55932927"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/f1ba9463-e1a2-4687-b173-afecc0e5e347_d69e25be-d0a0-4883-8c04-c0fca66452b5.jpg",
+                      "categoryId": "55932906"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Keto Friendly",
+                      "categories": [
+                        {
+                          "title": "Tubs",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675950",
+                                  "name": "Blueberry Cheesecake - 450 ml",
+                                  "category": "Keto Friendly",
+                                  "description": "Indulge in creamy cheesecake ice cream swirled with a tangy blueberry ribbon and layered with buttery biscuit crumbles. Only 132 calories per serve and 2g net carbs per serve, guilt-free with zero added sugar, no preservatives, and keto-friendly. It captures the classic dessert experience in every bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/669d7bf1-b580-469c-bcc6-1c93f7d9592a_b6916bf5-1b28-4847-988e-e229c2d6a60d.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 46190,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "2.6",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#FFF0CD",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_low",
+                                      "ratingTextColor": "rating_low",
+                                      "ratingCountTextColor": "rating_low",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "parentId": "48062917"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "129675949",
+                                  "name": "Chocolate Hazelnut Rocher - 450 ml",
+                                  "category": "Keto Friendly",
+                                  "description": "Creamy, nutty hazelnut ice cream is studded with crunchy chocolate crispies and sprinkled with rich dark chocolate flakes. Only 125 calories per serve and 2g net carbs per serve, naturally sweetened, guilt-free with zero added sugar, and preservative-free. It's flavourful and creates a symphony of textures in every bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/4e949ba8-7e4c-4e53-b589-33a6c85a293a_4ac78e60-be54-42f4-832d-355d644dc109.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 46190,
+                                  "finalPrice": 23100,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "50% OFF",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "itemNudgeType": "CouponlessSild",
+                                  "isGuiltfree": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "12 ratings",
+                                      "ratingCountV2": "12"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "imageBadges": [
+                                    {
+                                      "imageId": "sachin/OCT2025/NO%20ADDEED%20SUGAR.png"
+                                    }
+                                  ],
+                                  "offerIds": [
+                                    "5bd4974d-334d-44f2-89ea-2c32c6598ea2"
+                                  ],
+                                  "parentId": "37749877"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "57035620"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/6/16/669d7bf1-b580-469c-bcc6-1c93f7d9592a_b6916bf5-1b28-4847-988e-e229c2d6a60d.jpg",
+                      "categoryId": "55932907"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 21223194001165"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "The Brooklyn Creamery - Healthy Ice Cream",
+                      "area": "HSR LAYOUT",
+                      "completeAddress": "AL BAWARCHI BIRYANI,  NO.226, ANUGRAHA, GROUND FLOOR, 17TH B MAIN ROAD, 4TH SECTOR, HSR LAYOUT-BENGALURU, INDIA , BTM Layout , B.B.M.P South, Karnataka-560102"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "a7c71a27-d81d-49b6-afeb-826199251685",
+  "sid": "ob3e87bf-89c1-4bb1-bad2-041c4d9bce37",
+  "deviceId": "c4602be2-022a-09e9-f976-a07c6c001d48",
+  "csrfToken": "xM9CsqKnncaU-pBv44nbr36oYOUnLXW2Of2Ih4uE"
+}

@@ -1,0 +1,2947 @@
+{
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Cheesecakes By CakeZone",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "581495",
+              "name": "Cheesecakes By CakeZone",
+              "city": "Bangalore",
+              "slugs": {
+                "restaurant": "cheesecakes-by-cakezone-koramangala-koramangala",
+                "city": "bangalore"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/5/15/615158dd-824b-4f46-a61e-4fff733df079_581495.jpg",
+              "locality": "KORAMANGLA",
+              "areaName": "KORAMANGLA 6th Block",
+              "costForTwo": "20000",
+              "costForTwoMessage": "₹200 for two",
+              "cuisines": [
+                "Desserts",
+                "Bakery"
+              ],
+              "avgRating": 4.4,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "581495",
+                "fees": [
+                  {
+
+                  }
+                ]
+              },
+              "parentId": "348057",
+              "avgRatingString": "4.4",
+              "totalRatingsString": "112 ratings",
+              "sla": {
+                "restaurantId": "581495",
+                "deliveryTime": 29,
+                "minDeliveryTime": 25,
+                "maxDeliveryTime": 30,
+                "lastMileTravel": 0.7,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1,
+                "slaString": "25-30 MINS",
+                "lastMileTravelString": "0.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-12-02 01:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {
+
+                }
+              },
+              "aggregatedDiscountInfo": {
+                "header": "Get items under 69",
+                "shortDescriptionList": [
+                  {
+                    "meta": "99 store",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "99 store",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {
+
+              },
+              "slugString": "cheesecakes-by-cakezone-koramangala-koramangala",
+              "multiOutlet": true,
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "CakeZone, NO.897/E, FIRST FLOOR, YAMAHA SHOWROOM, 6TH BLOCK, KORAMANGLA, 80 FT RD, BANGALORE, BTM Layout , B.B.M.P South, Karnataka, 560095"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Desserts,Bakery"
+                }
+              ],
+              "totalRatings": 112,
+              "aggregatedDiscountInfoV2": {
+                "header": "Get items under 69",
+                "shortDescriptionList": [
+                  {
+                    "meta": "99 store",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "99 store",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹125 off | Use FLAVORFUL",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 1,
+                  "discountInfo": {
+                    "discountType": "FinalPrice",
+                    "value": 69
+                  },
+                  "unlockedMessage": "Deal of the Day unlocked!",
+                  "minItemCount": 1,
+                  "maxItemCount": 1,
+                  "type": "SILD",
+                  "nudgeTagInfo": {
+                    "title": "Deal of the Day",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "logoCtx": {
+
+                  },
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/581495"
+              },
+              "generalPurposeInfoListV2": [
+                {
+                  "cta": {
+                    "info": {
+                      "recordings": {
+
+                      }
+                    },
+                    "linkCta": {
+
+                    }
+                  }
+                }
+              ],
+              "ratingSlab": "RATING_SLAB_5",
+              "restaurantCategory": "RESTAURANT_CATEGORY_GOURMET",
+              "orderabilityCommunication": {
+                "title": {
+
+                },
+                "subTitle": {
+
+                },
+                "message": {
+
+                },
+                "customIcon": {
+
+                },
+                "commsStyling": {
+
+                }
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {
+
+                },
+                "presentation": {
+
+                }
+              },
+              "latLong": "12.940404,77.625173",
+              "backgroundImageOverlayInfo": {
+
+              },
+              "featuredSectionInfo": {
+
+              },
+              "requestContexts": [
+                "enable_ecosaver",
+                "99store"
+              ],
+              "dishStyle": {
+                "socialMarkerStyle": [
+                  {
+                    "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                    "title": "Protein Rich",
+                    "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                    "textColor": "highlight"
+                  },
+                  {
+                    "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                    "title": "Bestseller",
+                    "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                    "textColor": "color_swiggy_one"
+                  }
+                ]
+              }
+            },
+            "analytics": {
+
+            }
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+            "sectionId": "POP_UP_CROUTON_MENU"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {
+
+              },
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹69",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "814e3e22-0c91-455f-8638-7c7425db473d"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "581495",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹125 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "f01709df-9ba3-40da-ad53-8ba51ffe98f9"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAVORFUL",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "581495",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAVORFUL"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "3a072b1d-7ccb-4372-9c35-eff8b3a9ed81"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT150",
+                      "description": "ABOVE ₹799",
+                      "offerType": "offers",
+                      "restId": "581495",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT150"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 25% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": [
+                        "b2398464-5d82-41a9-84ac-bda37d0e8210"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE XTRAPARTY",
+                      "description": "ABOVE ₹3000",
+                      "offerType": "offers",
+                      "restId": "581495",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE XTRAPARTY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "7.5% OFF UPTO ₹100",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/11/30/8c558ee4-4d93-4c9a-8cc5-5f615532929a_YESBankMenuLogoNew1.png",
+                      "offerIds": [
+                        "c85fbe8f-7890-4a28-8ce8-af4536680043"
+                      ],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "NO CODE REQUIRED",
+                      "description": "ABOVE ₹399",
+                      "offerType": "offers",
+                      "restId": "581495",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/11/30/8c558ee4-4d93-4c9a-8cc5-5f615532929a_YESBankMenuLogoNew1.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "NO CODE REQUIRED"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {
+
+                  }
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {
+
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {
+
+                      },
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964783",
+                              "name": "French Blueberry Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gm. This slice is combination of creamy cheesecake, buttery crust, and vibrant blueberry filling flavor, all presented with a touch of French culinary elegance, creates a delicious dessert. (521 Calories, Protein-6g, Carbs-40g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/8692fc42-0999-4ec3-b3ec-58fd7a404bd9_f8a717fa-6dfd-4284-afcc-67a463520926.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248775"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964814",
+                              "name": "Mango Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "[Eggless]. Mini Jar (150 gm). Smooth, rich, fresh, and with a dense texture of cheesecake and mango appropriately constructed in a jar. Feeling low today? Gift yourself this amazing cake dessert which comes in a premium glass jar. (684 Calories, Protein-7g, Carbs-55g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/7608df46-8959-4cef-9e36-92b53895b820_ea7c5e22-fcb3-46fe-9a7b-44a36d027fb1.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 25900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "showImage": true,
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248786"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {
+
+                      },
+                      "categoryId": "-1"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Brownie c",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "102152417",
+                              "name": "Red Velvet Brownie - 1Pc",
+                              "category": "Brownie c",
+                              "description": "Brownies are the most loved and addictive dessert which are moist, soft in texture and gives you unique taste. Enjoy every bite and mark your moments.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/d4fd5ddb-d15c-4826-842e-f5c73fcb3c9a_7b76d8cf-6952-492a-948e-778428461791.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "85871187"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "99149907",
+                              "name": "Choco Lava Cake",
+                              "category": "Brownie c",
+                              "description": "[Eggless]. Life is too short to say no to cake and Chocolate as you know is irresistible so indulge in our perfect creations for your sweet celebrations. (1 Serving, 308 Calories, protein-7g, Carbs-46g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/8cd00dbf-49bf-4312-9371-dc125cd5bc34_7a2e26fe-eca5-4eb0-bf0e-efb36ca7847a.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 10900,
+                              "finalPrice": 6900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "offerIds": [
+                                "814e3e22-0c91-455f-8638-7c7425db473d"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "55781230"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/d4fd5ddb-d15c-4826-842e-f5c73fcb3c9a_7b76d8cf-6952-492a-948e-778428461791.jpg",
+                      "categoryId": "50522566"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Celebration Cakes",
+                      "categories": [
+                        {
+                          "title": "Gourmet Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "165563733",
+                                  "name": "Hazelnut Truffle Cake",
+                                  "category": "Celebration Cakes",
+                                  "description": "This Hazelnut Cake features layers of moist chocolate cake infused with the distinct essence of finely ground hazelnuts. delicate crunch of hazelnut pieces within the layers offers a symphony of textures, creating a blend of indulgence.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/12/13/f7861789-a036-4ad1-942e-e28bb95ed1b4_e83a20fa-de41-4dc4-9c05-3ff2de1f3ccb.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "56268460",
+                                        "name": "Select Weight",
+                                        "variations": [
+                                          {
+                                            "name": "500 Grams (Serves 4-6)",
+                                            "price": 649,
+                                            "default": 1,
+                                            "id": "174776941",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "1 Kg (Serves 9-10)",
+                                            "price": 944,
+                                            "id": "174776943",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "56268460",
+                                            "variationId": "174776941"
+                                          }
+                                        ],
+                                        "price": 64900,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "206096110",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "206096110",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "56268460",
+                                            "variationId": "174776943"
+                                          }
+                                        ],
+                                        "price": 94400,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "206096110",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "206096110",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "206096108",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 64900,
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "74636794"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "50522570"
+                        },
+                        {
+                          "title": "Eggless Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "183549279",
+                                  "name": "Vanilla Blueberry Eggless Cake - 500gms",
+                                  "category": "Celebration Cakes",
+                                  "description": "Serves 1 | Vanilla Blueberry Cake – A light and fluffy vanilla sponge paired with the sweet tang of blueberries, creating a delightful burst of flavor in every bite. Perfectly balanced and refreshing, this cake is a treat for any occasion.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/29/2cbf7b14-052a-4c05-9955-cb0d5eaa14b6_a5c0a9ad-7789-4da3-a6e6-946689d4911c.png_compressed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 58900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "111478680"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "67312421"
+                        },
+                        {
+                          "title": "Egg Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "183549280",
+                                  "name": "Choco Vanilla Egg Cake - 500gms",
+                                  "category": "Celebration Cakes",
+                                  "description": "Serves 1 | Choco Vanilla Cake – Indulge in the perfect harmony of rich chocolate and smooth vanilla, layered beautifully for a classic treat. Moist, fluffy, and bursting with flavor, this cake is an ideal choice for celebrations or anytime indulgence.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/29/93c7c7d0-8bd0-469d-914d-a9a6992132bd_c6508cc2-5f1f-4ba9-841a-3d77d74621e3.jpg",
+                                  "inStock": 1,
+                                  "price": 57900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "111478677"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "183549281",
+                                  "name": "Vanilla Blueberry Egg Cake - 500gms",
+                                  "category": "Celebration Cakes",
+                                  "description": "Serves 1 | Vanilla Blueberry Cake – A light and fluffy vanilla sponge paired with the sweet tang of blueberries, creating a delightful burst of flavor in every bite. Perfectly balanced and refreshing, this cake is a treat for any occasion.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/29/2cbf7b14-052a-4c05-9955-cb0d5eaa14b6_a5c0a9ad-7789-4da3-a6e6-946689d4911c.png_compressed",
+                                  "inStock": 1,
+                                  "price": 57900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "NONVEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "111478679"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "67312422"
+                        },
+                        {
+                          "title": "Cheesecake (500 Gms)",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "98846876",
+                                  "name": "Red Velvet Cheesecake (500 Gms)",
+                                  "category": "Celebration Cakes",
+                                  "description": "500 gms. Bite into our Smooth, rich, fresh, original sourness of cheese and with a dense texture of cheesecake and Red Velvet .  We stand by our promise, of sweeter celebrations with CakeZone. ( 4 Serving, 702 calories each, protein-7g each, carbs-57g each)",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/cb7475c5-21f6-41d2-9e66-7d068a04b0ed_0d84a922-3058-4eaa-b007-8e19b75fe5e3.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 97900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "71841703"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96964779",
+                                  "name": "French Blueberry Cheesecake (500 Gms)",
+                                  "category": "Celebration Cakes",
+                                  "description": "This cheesecake is combination of creamy cheesecake, buttery crust, and vibrant blueberry filling flavor, all presented with a touch of French culinary elegance, creates a delicious dessert. (521 Calories, Protein-6g, Carbs-40g)",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/c1cc7772-96c3-4e77-8e3f-24511ad9c704_2c603609-efd3-4388-bd44-792ae2b5ae63.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 100900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "5.0",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "71841700"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "96964773",
+                                  "name": "Choco Mousse Cheesecake (500 Gms)",
+                                  "category": "Celebration Cakes",
+                                  "description": "[Eggless]. 500 gms. Bite into our smooth, rich, fresh, and dense texture of cheesecake and Choco Mousse . We stand by our promise, of sweeter celebrations with CakeZone. (4 Serving, 800 calories each, protein-6g each, carbs-61g each)",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/ea3ae503-42ff-4da1-8ddf-157b1ac1448c_8e329bd9-2db0-4132-89fa-25cb702f2722.jpg",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 99900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "71841698"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "60158571"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/12/13/f7861789-a036-4ad1-942e-e28bb95ed1b4_e83a20fa-de41-4dc4-9c05-3ff2de1f3ccb.jpg",
+                      "categoryId": "50522567"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Pastry C",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964849",
+                              "name": "Strawberry Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gms. Nothing could be more richer than a Pastry. Pastries are edible love. Try our Strawberry cheesecake to know it for yourself. (567 Calories, Protein-6g, Carbs-53g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/8/23/70992832-320d-4dcf-80dc-c47e9b3983f8_aa4cb784-a6e3-43d7-ba5f-cb91224f03b9.jpg_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248796"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "108814628",
+                              "name": "Plain Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gms. Nothing could be richer than a cheesecake.  Try our cheesecake to know it for yourself.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/ace5a0cf-0077-48a0-9617-0142071f9b99_6b342e5f-230a-4d9c-950a-4f14ce81c8a2.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 25900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "62383538"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "126236976",
+                              "name": "Belgium Chocolate Pastry",
+                              "category": "Pastry C",
+                              "description": "Delight in the velvety richness of chocolate sponge cake, perfectly complemented by the exquisite taste of Belgian ganache. Each bite is a symphony of decadence. [ 1 Serving, 328 K Calories, Protein - 5 g, Carbs- 56g.]",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/17/c326709c-1cb8-4f6a-9f1e-53404c35d3b7_a7e4943f-4642-4d28-ba8b-98c583c68138.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 18900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "72700140"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964775",
+                              "name": "Choco Mousse Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gms. Nothing could be more richer than a pastry. Pastries are edible love. Try our Choco Mousse cheesecake pastry to know it for yourself. (959 Calories, Protein-9g, Carbs-74g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/477c65b3-a760-45e5-b7de-701f084c0971_3139e398-5799-42ea-b1d7-5ff30afe11a8.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248769"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964817",
+                              "name": "Mango Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gms. Nothing could be more fresh than a Pastry. Pastries are edible love. Try our Mango cheesecake to know it for yourself. (516 Calories, Protein-6g, Carbs-39g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/9c909afa-118f-4dee-92f0-89af774f2f93_5f04cbce-4a8b-4cba-8bb5-7ed3c39cf283.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248787"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "98846880",
+                              "name": "Red Velvet Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "120 gms. Nothing could be more richer than a Cheesecake Pastry. Pastries are edible love. Try our pastry to know it for yourself. (535 Calories, Protein-6g, Carbs-40g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/4cc5bbb3-ed39-4e5b-991b-8d7af0cec106_27cd9881-db98-4134-b325-32f245e4f2b5.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "55569155"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964783",
+                              "name": "French Blueberry Cheesecake Slice",
+                              "category": "Pastry C",
+                              "description": "[Eggless]. 120 gm. This slice is combination of creamy cheesecake, buttery crust, and vibrant blueberry filling flavor, all presented with a touch of French culinary elegance, creates a delicious dessert. (521 Calories, Protein-6g, Carbs-40g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/8692fc42-0999-4ec3-b3ec-58fd7a404bd9_f8a717fa-6dfd-4284-afcc-67a463520926.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 29900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248775"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/8/23/70992832-320d-4dcf-80dc-c47e9b3983f8_aa4cb784-a6e3-43d7-ba5f-cb91224f03b9.jpg_compressed",
+                      "categoryId": "50418655"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Jar Cake",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964814",
+                              "name": "Mango Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "[Eggless]. Mini Jar (150 gm). Smooth, rich, fresh, and with a dense texture of cheesecake and mango appropriately constructed in a jar. Feeling low today? Gift yourself this amazing cake dessert which comes in a premium glass jar. (684 Calories, Protein-7g, Carbs-55g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/7608df46-8959-4cef-9e36-92b53895b820_ea7c5e22-fcb3-46fe-9a7b-44a36d027fb1.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 25900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248786"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964774",
+                              "name": "Choco Mousse Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "[Eggless]. Mini Jar (150 gm).Smooth, rich, fresh, and with a dense texture of cheesecake and Choco Mousse appropriately constructed in a jar. Feeling low today? Gift yourself this amazing cake dessert which comes in a premium glass jar. (1151 Calories, Protein-10g, Carbs-88g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/7cff753f-9970-47f1-b698-489cd3c04649_6310e706-16f1-4326-a33f-b1d45509cec6.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#D9EFEC",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248768"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964781",
+                              "name": "French Blueberry Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "[Eggless]. 150 gm. A Blueberry Cheesecake Jar offers a delightful fusion of creamy cheesecake and the bright, fruity notes of blueberries filling. Each layer contributes to a harmonious blend of textures and flavors. (689 Calories, Protein-7g, Carbs-56g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/3/fbbd7547-d9e6-4141-a0e9-76c15a49356c_8a54fee2-6e41-40ef-afc1-2275f65f55e1.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 26900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248774"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "98846878",
+                              "name": "Red Velvet Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "Mini Jar (150 gm).The smooth, rich, fresh, original sourness of cheese and with the dense texture of cheesecake and Red Velvet are appropriately constructed in a jar. Feeling low today? Gift yourself this amazing cake dessert which comes in a premium glass jar. (702 Calories, Protein-7g, Carbs-57g)",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/46e1ba8d-06d9-42bf-820c-f4fdcf3f9a37_44408411-b835-4302-a86d-d53b46ea68a9.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 27900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "55569154"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "160644734",
+                              "name": "Strawberry Mini Jar Cake",
+                              "category": "Jar Cake",
+                              "description": "Serves 1 | Strawberry Jar Cake is a charming dessert layered in a glass jar. It combines moist cake, sweetened whipped cream or frosting, and fresh strawberries for a perfect blend of flavors and textures. Ideal for parties, picnics, or any sweet occasion!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/1/17/e39dcfdd-0e66-43ad-85fb-191c1fb38c31_adcb3913-6053-4320-ad41-934429125d21.jpg",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 17900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "1 rating",
+                                  "ratingCountV2": "1"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "96245754"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "96964846",
+                              "name": "Strawberry Cheesecake Jar",
+                              "category": "Jar Cake",
+                              "description": "[Eggless]. Smooth, rich, fresh, and with a dense texture of cheesecake and Strawberry. appropriately constructed in a jar. Gift yourself this amazing cake dessert which comes in a premium glass jar.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/6/a9df846f-49d8-44de-9625-ae030888b56f_392e45b3-536f-4597-b76c-f0b0b12f6c76_compressed",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 24900,
+                              "variants": {
+
+                              },
+                              "variantsV2": {
+
+                              },
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {
+
+                              },
+                              "badgesV2": {
+
+                              },
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.0",
+                                  "ratingCount": "2 ratings",
+                                  "ratingCountV2": "2"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": [
+                                      "#C8F9E5",
+                                      "#00FFFFFF"
+                                    ],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "54248795"
+                            },
+                            "analytics": {
+
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {
+
+                      },
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/1/16/7608df46-8959-4cef-9e36-92b53895b820_ea7c5e22-fcb3-46fe-9a7b-44a36d027fb1.jpg",
+                      "categoryId": "50418654"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Gourmet Cakes",
+                      "categories": [
+                        {
+                          "title": "Mawa Cakes - Chef's Special",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "124652200",
+                                  "name": "Classic Mawa Cake - 300grams",
+                                  "category": "Gourmet Cakes",
+                                  "description": "This cake is a popular Indian dessert that is known for its rich and flavorful taste. It is a moist and indulgent delicacy made with a combination of mawa, which is a thickened milk solids used in Indian sweets, and other key ingredients. The cake has a dense yet soft texture that melts in your mouth, making it a delightful treat for your taste buds. [4 Servings, Protein(g)-24, Carbs(g)-152, Total fibre (g)-3, Energy(kcal)-1486]",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/8/7ec93324-5738-436a-92ec-bf7c2543ebd9_f309786e-5def-4453-9eb9-724ddc1c7c55_compressed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 38900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "71896740"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "40194818"
+                        },
+                        {
+                          "title": "Gourmet Cakes",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "128731872",
+                                  "name": "Oreo Truffle cake",
+                                  "category": "Gourmet Cakes",
+                                  "description": "This Cake is a delightful and indulgent dessert that combines the beloved flavor of Oreo cookies with a creamy, luscious texture. It's a treat that's sure to please Oreo enthusiasts and dessert lovers alike.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/8/35c0cd34-13b4-4258-a751-d2c8f7b39fc9_a127e56f-f5bb-4039-a778-d60321ada53a_compressed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "34651619",
+                                        "name": "Select Weight",
+                                        "variations": [
+                                          {
+                                            "name": "500 Gms (Serves 4-6)",
+                                            "price": 549,
+                                            "default": 1,
+                                            "id": "107145387",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "1 Kg (Serves 9-10)",
+                                            "price": 859,
+                                            "id": "107145388",
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "34651619",
+                                            "variationId": "107145387"
+                                          }
+                                        ],
+                                        "price": 54900,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "124008830",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "124008830",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "110251817"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382679"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382678"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382681"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382680"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "34651619",
+                                            "variationId": "107145388"
+                                          }
+                                        ],
+                                        "price": 85900,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "124008830",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "124008830",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "110251817"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382679"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382678"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382681"
+                                          },
+                                          {
+                                            "groupId": "124008831",
+                                            "addonId": "100382680"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "124008829",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "addons": [
+                                    {
+                                      "groupId": "124008831",
+                                      "groupName": "Add On - Party Essentials",
+                                      "choices": [
+                                        {
+                                          "id": "100382680",
+                                          "name": "Pack of 6 Birthday Caps",
+                                          "price": 8500,
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "110251817",
+                                          "name": "Ginger Cookies (5 Pc)",
+                                          "price": 9900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382679",
+                                          "name": "Snow Spray",
+                                          "price": 11900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382678",
+                                          "name": "Paper Popper",
+                                          "price": 11900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382681",
+                                          "name": "Pack of 10 Party Balloons",
+                                          "price": 9900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ],
+                                      "maxAddons": 5,
+                                      "maxFreeAddons": -1
+                                    }
+                                  ],
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 54900,
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "74636796"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "128731873",
+                                  "name": "Nutty Truffle Cake",
+                                  "category": "Gourmet Cakes",
+                                  "description": "It is a delectable dessert that combines the rich flavors of chocolate and nuts to create a delightful and indulgent treat, offering a perfect balance of sweetness, creaminess, and nuttiness. This cake is sure to please those who appreciate the delightful combination of chocolate and nuts in a dessert.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/8/e9cb4162-ae3a-4cc7-b311-184e4890ae11_3dd40982-f9f7-480c-bd51-1dda0c418b06_compressed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "34651620",
+                                        "name": "Select Weight",
+                                        "variations": [
+                                          {
+                                            "name": "500 Gms (Serves 4-6)",
+                                            "price": 559,
+                                            "default": 1,
+                                            "id": "107145389",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "1 Kg (Serves 9-10)",
+                                            "price": 909,
+                                            "id": "107145390",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "34651620",
+                                            "variationId": "107145389"
+                                          }
+                                        ],
+                                        "price": 55900,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "124008833",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "124008833",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "110251817"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382679"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382678"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382681"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382680"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "34651620",
+                                            "variationId": "107145390"
+                                          }
+                                        ],
+                                        "price": 90900,
+                                        "addonCombinations": [
+                                          {
+                                            "groupId": "124008833",
+                                            "addonId": "100382677"
+                                          },
+                                          {
+                                            "groupId": "124008833",
+                                            "addonId": "100382676"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "110251817"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382679"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382678"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382681"
+                                          },
+                                          {
+                                            "groupId": "124008834",
+                                            "addonId": "100382680"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382672"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382673"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382674"
+                                          },
+                                          {
+                                            "groupId": "124008832",
+                                            "addonId": "100382675"
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  "addons": [
+                                    {
+                                      "groupId": "124008834",
+                                      "groupName": "Add On - Party Essentials",
+                                      "choices": [
+                                        {
+                                          "id": "100382680",
+                                          "name": "Pack of 6 Birthday Caps",
+                                          "price": 8500,
+                                          "inStock": 1,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "110251817",
+                                          "name": "Ginger Cookies (5 Pc)",
+                                          "price": 9900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382679",
+                                          "name": "Snow Spray",
+                                          "price": 11900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382678",
+                                          "name": "Paper Popper",
+                                          "price": 11900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        },
+                                        {
+                                          "id": "100382681",
+                                          "name": "Pack of 10 Party Balloons",
+                                          "price": 9900,
+                                          "isVeg": 1,
+                                          "isEnabled": 1
+                                        }
+                                      ],
+                                      "maxAddons": 5,
+                                      "maxFreeAddons": -1
+                                    }
+                                  ],
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 55900,
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "74636795"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "130193022",
+                                  "name": "Choco Caramel Crunch Cake",
+                                  "category": "Gourmet Cakes",
+                                  "description": "Indulge in a symphony of flavors with our Choco Caramel Crunch—a delectable fusion of rich chocolate, gooey caramel, and a satisfying crunch that will delight your taste buds. Each bite is a harmonious dance of textures and tastes, creating a moment of pure indulgence.",
+                                  "imageId": "3e93c29fd2f341b45c3b139832df6136",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "35609950",
+                                        "name": "Select Weight",
+                                        "variations": [
+                                          {
+                                            "name": "500 Grams (Serves 4-6)",
+                                            "price": 569,
+                                            "default": 1,
+                                            "id": "110393046",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "1 Kg (Serves 9-10)",
+                                            "price": 874,
+                                            "id": "110393047",
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "35609950",
+                                            "variationId": "110393046"
+                                          }
+                                        ],
+                                        "price": 56900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "35609950",
+                                            "variationId": "110393047"
+                                          }
+                                        ],
+                                        "price": 87400
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 56900,
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "1 rating",
+                                      "ratingCountV2": "1"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "75643251"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "133319259",
+                                  "name": "Opulent Butterscotch Bliss Cake",
+                                  "category": "Gourmet Cakes",
+                                  "description": "This cake is a delicious dessert that features the rich and distinct flavor of butterscotch. It's a type of cake that incorporates butterscotch flavor into various components, creating a delightful treat for those who enjoy the unique combination, best cake for celebrations.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/8/ab5f7d40-715f-4d7e-89f6-86079e02987e_4d10ffbf-194d-497c-b2cb-f7963b31199b_compressed",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+                                    "variantGroups": [
+                                      {
+                                        "groupId": "37622041",
+                                        "name": "Select Weight",
+                                        "variations": [
+                                          {
+                                            "name": "500 Grams (Serves 4-6)",
+                                            "price": 559,
+                                            "default": 1,
+                                            "id": "117885038",
+                                            "inStock": 1,
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          },
+                                          {
+                                            "name": "1 Kg (Serves 9-10)",
+                                            "price": 784,
+                                            "id": "117885039",
+                                            "isVeg": 1,
+                                            "isEnabled": 1
+                                          }
+                                        ]
+                                      }
+                                    ],
+                                    "pricingModels": [
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "37622041",
+                                            "variationId": "117885038"
+                                          }
+                                        ],
+                                        "price": 55900
+                                      },
+                                      {
+                                        "variations": [
+                                          {
+                                            "groupId": "37622041",
+                                            "variationId": "117885039"
+                                          }
+                                        ],
+                                        "price": 78400
+                                      }
+                                    ]
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "defaultPrice": 55900,
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.0",
+                                      "ratingCount": "2 ratings",
+                                      "ratingCountV2": "2"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "77864027"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "40194819"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/8/7ec93324-5738-436a-92ec-bf7c2543ebd9_f309786e-5def-4453-9eb9-724ddc1c7c55_compressed",
+                      "categoryId": "40194817"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Celebration Party Essentials",
+                      "categories": [
+                        {
+                          "title": "Party Essentials",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "111339859",
+                                  "name": "Knife and Candle",
+                                  "category": "Celebration Party Essentials",
+                                  "imageId": "90273b8f11c4d64179fab2498b27c629",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 1900,
+                                  "variants": {
+
+                                  },
+                                  "variantsV2": {
+
+                                  },
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {
+
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {
+
+                                  },
+                                  "badgesV2": {
+
+                                  },
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.4",
+                                      "ratingCount": "13 ratings",
+                                      "ratingCountV2": "13"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": [
+                                          "#C8F9E5",
+                                          "#00FFFFFF"
+                                        ],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "64135720"
+                                },
+                                "analytics": {
+
+                                },
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {
+
+                          },
+                          "categoryId": "43693070"
+                        }
+                      ],
+                      "image": "90273b8f11c4d64179fab2498b27c629",
+                      "categoryId": "43693069"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": [
+                        "License No. 11221334002283"
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Cheesecakes By CakeZone",
+                      "area": "KORAMANGLA 6th Block",
+                      "completeAddress": "CakeZone, NO.897/E, FIRST FLOOR, YAMAHA SHOWROOM, 6TH BLOCK, KORAMANGLA, 80 FT RD, BANGALORE, BTM Layout , B.B.M.P South, Karnataka, 560095"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "a7c71a27-d81d-49b6-afeb-826199251685",
+  "sid": "ob3e87bf-89c1-4bb1-bad2-041c4d9bce37",
+  "deviceId": "c4602be2-022a-09e9-f976-a07c6c001d48",
+  "csrfToken": "slKz2YCKd1E8-yZz6-vJOXh-hvpg5J7AHataeN1Q"
+}
