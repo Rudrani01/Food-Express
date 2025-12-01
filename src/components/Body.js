@@ -35,17 +35,17 @@ const Body = () => {
 
   return (
     <div className="body">
-      <div className="filter flex">
-        <div className="search m-4 p-4">
+      <div className="filter flex flex-col md:flex-row md:flex-wrap">
+        <div className="search m-2 p-2 md:m-4 md:p-4">
           <input
             type="text"
             data-testid="searchInput"
-            className="search-box border border-solid border-black"
+            className="search-box border border-solid border-black w-full md:w-auto px-2 py-1 rounded"
             value={searchText}
             onChange={(e) => setSearchText(e.target.value)}
           />
 
-          <button className="px-4 py-2  border-2 font-semibold border-green-300 bg-green-50 hover:bg-green-300 m-4 rounded-lg"
+          <button className="px-4 py-2 border-2 font-semibold border-green-300 bg-green-50 hover:bg-green-300 mt-2 md:m-4 rounded-lg w-full md:w-auto"
             onClick={() => {
               const filtered = listOfRestaurants.filter((res) => {
                 const searchLower = searchText.toLowerCase();
@@ -67,9 +67,9 @@ const Body = () => {
           </button>
         </div>
 
-        <div className="search m-4 p-4 flex items-center">
+        <div className="search m-2 p-2 md:m-4 md:p-4 flex items-center">
           <button
-            className="filter-btn px-4 py-2 font-semibold border-2 border-yellow-300 bg-yellow-50 rounded-lg hover:bg-yellow-300"
+            className="filter-btn px-4 py-2 font-semibold border-2 border-yellow-300 bg-yellow-50 rounded-lg hover:bg-yellow-300 w-full md:w-auto"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res.info.avgRating > 4.3
@@ -81,9 +81,9 @@ const Body = () => {
           </button>
         </div>
 
-        <div className="search m-4 p-4 flex items-center gap-3 font-semibold">
+        <div className="search m-2 p-2 md:m-4 md:p-4 flex flex-col md:flex-row md:items-center gap-2 md:gap-3 font-semibold">
           <label>UserName : </label>
-          <input className="border border-black p-2 rounded-lg"
+          <input className="border border-black p-2 rounded-lg w-full md:w-auto"
             value={loggedInUser}
             onChange={(e) => setUserName(e.target.value)}></input>
         </div>

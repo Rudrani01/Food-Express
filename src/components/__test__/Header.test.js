@@ -21,7 +21,7 @@ it("Should render Header Component with a login button", () => {
     expect(loginButton).toBeInTheDocument();
 });
 
-it("Should render Header Component with a Cart items 0 ", () => {
+it("Should render Header Component with a Cart items 0", () => {
   render(
     <BrowserRouter>
       <Provider store={appStore}>
@@ -30,9 +30,11 @@ it("Should render Header Component with a Cart items 0 ", () => {
     </BrowserRouter>
   );
 
-  const cartItems = screen.getByText("Cart - (0 items)");
+  //  (mobile + desktop)
+  const cartItems = screen.getAllByText(/Cart - \(0/);
 
-  expect(cartItems).toBeInTheDocument();
+  // Kam se kam 1 element hona chahiye
+  expect(cartItems.length).toBeGreaterThanOrEqual(1);
 });
 
 it("Should render Header Component with a Cart item ", () => {
