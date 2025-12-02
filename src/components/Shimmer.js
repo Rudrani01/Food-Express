@@ -15,7 +15,7 @@ const Shimmer = () => {
       {Array(12).fill("").map((_, i) => (
         <div
           key={i}
-          className="shimmer-card h-60 bg-gray-300 rounded-lg animate-pulse"
+          className="shimmer-card m-4 p-4 w-[250px] h-[300px] bg-gray-300 rounded-lg animate-pulse"
         ></div>
       ))}
     </div>
@@ -23,4 +23,3 @@ const Shimmer = () => {
 };
 
 export default Shimmer;
-

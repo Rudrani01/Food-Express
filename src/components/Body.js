@@ -4,9 +4,8 @@ import { Link } from "react-router-dom";
 import useRestaurants from "../utils/useRestaurants";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
-import { useContext } from "react";
+import { useContext, useState, useEffect } from "react";
 import searchIcon from "url:../images/search.png"; // Import your search icon
-
 
 // Create the promoted component using the HOC
 const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
@@ -21,7 +20,20 @@ const Body = () => {
     searchText,
     setSearchText,
   } = useRestaurants();
-  
+
+  const { loggedInUser, setUserName } = useContext(UserContext);
+
+  // State to control Shimmer visibility
+  const [showShimmer, setShowShimmer] = useState(true);
+
+  // Keep shimmer visible for a short delay even after data is loaded
+  useEffect(() => {
+    if (listOfRestaurants && listOfRestaurants.length > 0) {
+      const timer = setTimeout(() => setShowShimmer(false), 2000); // 2 seconds
+      return () => clearTimeout(timer);
+    }
+  }, [listOfRestaurants]);
+
   if (onlineStatus === false)
     return (
       <div className="flex justify-center items-center min-h-[40vh] px-4">
@@ -36,8 +48,6 @@ const Body = () => {
       </div>
     );
 
-  const { loggedInUser, setUserName } = useContext(UserContext);
-
   // Search Logic (reusable for button + Enter key)
   const handleSearch = () => {
     const filtered = listOfRestaurants.filter((res) => {
@@ -47,7 +57,7 @@ const Body = () => {
       const nameMatch = res.info.name.toLowerCase().includes(searchLower);
 
       // Search in cuisines array
-      const cuisineMatch = res.info.cuisines?.some(cuisine =>
+      const cuisineMatch = res.info.cuisines?.some((cuisine) =>
         cuisine.toLowerCase().includes(searchLower)
       );
 
@@ -57,9 +67,6 @@ const Body = () => {
     setFilteredRestaurant(filtered);
   };
 
-  if (!listOfRestaurants || listOfRestaurants.length === 0)
-    return <Shimmer />;
-
   return (
     <div className="body m-3 px-4 py-4 sm:px-6 lg:px-10">
       <div className="filter border-2 border-slate-400 flex flex-col md:flex-row justify-center gap-4 md:gap-8 p-4 bg-gray-50 rounded-lg shadow-sm">
@@ -67,7 +74,7 @@ const Body = () => {
         {/* Search Box with Icon */}
         <div className="search flex flex-col sm:flex-row gap-1 w-full sm:w-auto">
           <div className="relative w-full sm:w-64">
-            
+
             {/* Search Icon */}
             <img
               src={searchIcon}
@@ -80,9 +87,8 @@ const Body = () => {
               type="text"
               data-testid="searchInput"
               className="search-box border border-gray-300 w-full pl-10 pr-3 py-2 rounded-lg shadow-sm text-sm focus:ring-2 focus:ring-green-300 outline-none"
-              value={searchText}
+              value={searchText || ""}
               onChange={(e) => setSearchText(e.target.value)}
-
               // Enable Enter key search
               onKeyDown={(e) => {
                 if (e.key === "Enter") handleSearch();
@@ -119,28 +125,37 @@ const Body = () => {
           <label className="text-sm">UserName:</label>
           <input
             className="border border-gray-300 px-3 py-2 rounded-lg shadow-sm w-full md:w-52 text-sm focus:ring-2 focus:ring-blue-300 outline-none"
-            value={loggedInUser}
+            value={loggedInUser || ""}
             onChange={(e) => setUserName(e.target.value)}
           />
         </div>
 
       </div>
 
-      {/* Restaurants Grid */}
+      {/* Restaurants Grid or Shimmer */}
       <div className="res-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {filteredRestaurant.map((restaurant) => (
-          <Link
-            key={restaurant.info.id}
-            to={"/restaurants/" + restaurant.info.id}
-            className="hover:scale-[1.03] transition-transform duration-200"
-          >
-            {restaurant.info.promoted ? (
-              <RestaurantCardPromoted resData={restaurant} />
-            ) : (
-              <RestaurantCard resData={restaurant} />
-            )}
-          </Link>
-        ))}
+        {(showShimmer || !filteredRestaurant.length) ? (
+          Array(12).fill("").map((_, i) => (
+            <div
+              key={i}
+              className="shimmer-card m-4 p-4 w-[250px] h-[300px] bg-gray-300 rounded-lg animate-pulse"
+            ></div>
+          ))
+        ) : (
+          filteredRestaurant.map((restaurant) => (
+            <Link
+              key={restaurant.info.id}
+              to={"/restaurants/" + restaurant.info.id}
+              className="hover:scale-[1.03] transition-transform duration-200"
+            >
+              {restaurant.info.promoted ? (
+                <RestaurantCardPromoted resData={restaurant} />
+              ) : (
+                <RestaurantCard resData={restaurant} />
+              )}
+            </Link>
+          ))
+        )}
       </div>
     </div>
   );
