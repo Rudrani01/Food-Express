@@ -2,6 +2,8 @@ import { useSelector } from "react-redux";
 import ItemList from "./ItemList";
 import { useDispatch } from "react-redux";
 import { clearCart } from "../utils/cartSlice";
+import cartIcon from "url:../images/cart.png";
+
 
 
 const Cart = () => {
@@ -17,7 +19,9 @@ const Cart = () => {
     }
 
 return <div className="text-center m-2 sm:m-4 p-2 sm:p-4">
-        <h1 className="text-xl sm:text-2xl font-bold">Cart</h1>
+        <h1 className="relative flex flex-col items-center">
+            <img src={cartIcon} alt="cart" className="w-6 h-6" />
+        </h1>
         <div className="w-full sm:w-10/12 lg:w-6/12 m-auto">
             <button className="p-2 m-2 bg-black text-white rounded-lg text-sm sm:text-base hover:bg-gray-800 transition-colors"
                 onClick={handleClearcart}

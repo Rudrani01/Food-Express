@@ -5,6 +5,8 @@ import useRestaurants from "../utils/useRestaurants";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
 import { useContext } from "react";
+import searchIcon from "url:../images/search.png"; // Import your search icon
+
 
 // Create the promoted component using the HOC
 const RestaurantCardPromoted = withPromotedLabel(RestaurantCard);
@@ -19,57 +21,88 @@ const Body = () => {
     searchText,
     setSearchText,
   } = useRestaurants();
-
+  
   if (onlineStatus === false)
     return (
-      <h1>
-        Looks like you're offline!! Please check your internet connection.
-      </h1>
+      <div className="flex justify-center items-center min-h-[40vh] px-4">
+        <div className="bg-red-50 border border-red-300 text-red-700 px-6 py-4 rounded-xl shadow-sm text-center max-w-md">
+          <h1 className="font-semibold text-lg sm:text-xl">
+            🚫 You're Offline
+          </h1>
+          <p className="mt-2 text-sm sm:text-base">
+            Please check your internet connection and try again.
+          </p>
+        </div>
+      </div>
     );
 
   const { loggedInUser, setUserName } = useContext(UserContext);
 
+  // Search Logic (reusable for button + Enter key)
+  const handleSearch = () => {
+    const filtered = listOfRestaurants.filter((res) => {
+      const searchLower = searchText.toLowerCase();
+
+      // Search in restaurant name
+      const nameMatch = res.info.name.toLowerCase().includes(searchLower);
+
+      // Search in cuisines array
+      const cuisineMatch = res.info.cuisines?.some(cuisine =>
+        cuisine.toLowerCase().includes(searchLower)
+      );
+
+      return nameMatch || cuisineMatch;
+    });
+
+    setFilteredRestaurant(filtered);
+  };
 
   if (!listOfRestaurants || listOfRestaurants.length === 0)
     return <Shimmer />;
 
   return (
-    <div className="body">
-      <div className="filter flex flex-col md:flex-row md:flex-wrap">
-        <div className="search m-2 p-2 md:m-4 md:p-4">
-          <input
-            type="text"
-            data-testid="searchInput"
-            className="search-box border border-solid border-black w-full md:w-auto px-2 py-1 rounded"
-            value={searchText}
-            onChange={(e) => setSearchText(e.target.value)}
-          />
+    <div className="body m-3 px-4 py-4 sm:px-6 lg:px-10">
+      <div className="filter border-2 border-slate-400 flex flex-col md:flex-row justify-center gap-4 md:gap-8 p-4 bg-gray-50 rounded-lg shadow-sm">
 
-          <button className="px-4 py-2 border-2 font-semibold border-green-300 bg-green-50 hover:bg-green-300 mt-2 md:m-4 rounded-lg w-full md:w-auto"
-            onClick={() => {
-              const filtered = listOfRestaurants.filter((res) => {
-                const searchLower = searchText.toLowerCase();
+        {/* Search Box with Icon */}
+        <div className="search flex flex-col sm:flex-row gap-1 w-full sm:w-auto">
+          <div className="relative w-full sm:w-64">
+            
+            {/* Search Icon */}
+            <img
+              src={searchIcon}
+              alt="search"
+              className="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 opacity-70 pointer-events-none"
+            />
 
-                // Search in restaurant name
-                const nameMatch = res.info.name.toLowerCase().includes(searchLower);
+            {/* Input */}
+            <input
+              type="text"
+              data-testid="searchInput"
+              className="search-box border border-gray-300 w-full pl-10 pr-3 py-2 rounded-lg shadow-sm text-sm focus:ring-2 focus:ring-green-300 outline-none"
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
 
-                // Search in cuisines array
-                const cuisineMatch = res.info.cuisines?.some(cuisine =>
-                  cuisine.toLowerCase().includes(searchLower)
-                );
+              // Enable Enter key search
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSearch();
+              }}
+            />
+          </div>
 
-                return nameMatch || cuisineMatch;
-              });
-              setFilteredRestaurant(filtered);
-            }}
+          {/* Search Button */}
+          <button
+            className="px-5 py-2 border border-green-400 bg-green-100 hover:bg-green-200 transition rounded-lg text-sm font-medium shadow-sm"
+            onClick={handleSearch}
           >
             Search
           </button>
         </div>
 
-        <div className="search m-2 p-2 md:m-4 md:p-4 flex items-center">
+        {/* Top Rated Button */}
+        <div className="search">
           <button
-            className="filter-btn px-4 py-2 font-semibold border-2 border-yellow-300 bg-yellow-50 rounded-lg hover:bg-yellow-300 w-full md:w-auto"
+            className="px-5 py-2 border border-yellow-400 bg-yellow-100 hover:bg-yellow-200 transition rounded-lg text-sm font-medium shadow-sm w-full sm:w-auto"
             onClick={() => {
               const filteredList = listOfRestaurants.filter(
                 (res) => res.info.avgRating > 4.3
@@ -77,25 +110,29 @@ const Body = () => {
               setFilteredRestaurant(filteredList);
             }}
           >
-            Top Rated Restaurants
+            ⭐ Top Rated
           </button>
         </div>
 
-        <div className="search m-2 p-2 md:m-4 md:p-4 flex flex-col md:flex-row md:items-center gap-2 md:gap-3 font-semibold">
-          <label>UserName : </label>
-          <input className="border border-black p-2 rounded-lg w-full md:w-auto"
+        {/* Username Input */}
+        <div className="search flex flex-col md:flex-row gap-3 items-start md:items-center font-semibold">
+          <label className="text-sm">UserName:</label>
+          <input
+            className="border border-gray-300 px-3 py-2 rounded-lg shadow-sm w-full md:w-52 text-sm focus:ring-2 focus:ring-blue-300 outline-none"
             value={loggedInUser}
-            onChange={(e) => setUserName(e.target.value)}></input>
+            onChange={(e) => setUserName(e.target.value)}
+          />
         </div>
-
 
       </div>
 
-      <div className="res-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-4">
+      {/* Restaurants Grid */}
+      <div className="res-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {filteredRestaurant.map((restaurant) => (
           <Link
             key={restaurant.info.id}
             to={"/restaurants/" + restaurant.info.id}
+            className="hover:scale-[1.03] transition-transform duration-200"
           >
             {restaurant.info.promoted ? (
               <RestaurantCardPromoted resData={restaurant} />

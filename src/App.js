@@ -15,6 +15,7 @@ import Cart from "./components/Cart";
 // import Grocery from "./components/Grocery";
 import '../index.css';
 
+
 // breaking app into smaller logical chunks ----
 // Chunking
 // Code Spiltting
@@ -50,6 +51,7 @@ const AppLayout = () => {
                 <Header />
                 <Outlet />
             </div>
+
         </UserContext.Provider>
         </Provider>
 

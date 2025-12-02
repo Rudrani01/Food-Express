@@ -5,10 +5,11 @@ import { BrowserRouter } from "react-router-dom";
 import { act } from "react-dom/test-utils";
 import "@testing-library/jest-dom";
 
+
 // dummy fetch function --> trying to fetch() exactly similar to that our browser gives us
 // gives mock fetch function --- returns a promise
 
-// ✅ FIX: reset mocks before each test so state doesn't leak
+//  FIX: reset mocks before each test so state doesn't leak
 beforeEach(() => {
   jest.resetAllMocks();
 

@@ -91,7 +91,20 @@ const config = {
   // ],
 
   // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
-  // moduleNameMapper: {},
+ // Source - https://stackoverflow.com/a
+// Posted by Japser36
+// Retrieved 2025-12-02, License - CC BY-SA 4.0
+
+   // Source - https://stackoverflow.com/a
+// Posted by Japser36
+// Retrieved 2025-12-02, License - CC BY-SA 4.0
+
+  // Source - https://stackoverflow.com/a
+// Posted by Razi Melliti
+// Retrieved 2025-12-02, License - CC BY-SA 4.0
+
+
+
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
   // modulePathIgnorePatterns: [],
@@ -177,8 +190,8 @@ const config = {
 
   // A map from regular expressions to paths to transformers
   transform: {
-  '^.+\\.js$': 'babel-jest',
-},
+    '^.+\\.js$': 'babel-jest',
+  },
 
   // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
   // transformIgnorePatterns: [
@@ -190,7 +203,7 @@ const config = {
   // unmockedModulePathPatterns: undefined,
 
   // Indicates whether each individual test should be reported during the run
-  // verbose: undefined,
+  verbose: true,
 
   // An array of regexp patterns that are matched against all source file paths before re-running tests in watch mode
   // watchPathIgnorePatterns: [],

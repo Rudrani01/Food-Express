@@ -1,4 +1,4 @@
-import { render, screen } from "@testing-library/react"
+import { render, screen } from "@testing-library/react";
 import Contact from "../Contact";
 import "@testing-library/jest-dom";
 
@@ -42,7 +42,8 @@ describe("Contact Us Page Test Case", () => {
     it("Should load input name inside Contact component", () => {
         render(<Contact />);
 
-        const inputName = screen.getByPlaceholderText("name");
+        // Use exact placeholder match
+        const inputName = screen.getByPlaceholderText("Your Name");
 
         // Assertion
         expect(inputName).toBeInTheDocument();
@@ -57,11 +58,9 @@ describe("Contact Us Page Test Case", () => {
         //console.log(inputBoxes.length);
 
         // Assertion
-
         expect(inputBoxes.length).toBe(2);
     });
 });
-
 
 
 
