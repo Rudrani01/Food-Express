@@ -2,7 +2,7 @@
 
 Browse restaurants, explore menus, and manage your cart with ease.
 
-**Live Demo:** [https://food-express-plum-beta.vercel.app/](https://food-express-plum-beta.vercel.app/)
+**Live Demo:** [https://food-express-plum-beta.vercel.app/](https://food-express-azure.vercel.app/)
 
 ## About The Project
 
